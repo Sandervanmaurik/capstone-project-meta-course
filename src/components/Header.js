@@ -1,13 +1,12 @@
-import React, { useEffect, useRef } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { Box, HStack } from "@chakra-ui/react";
 import {
   faGithub,
   faLinkedin,
   faMedium,
   faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
-import { Box, HStack } from "@chakra-ui/react";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const socials = [
   {
@@ -34,12 +33,8 @@ const socials = [
 
 const sections = [
   {
-    id: "projects",
-    label: "Projects",
-  },
-  {
-    id: "contactme",
-    label: "Contact me",
+    id: "book",
+    label: "Book a table",
   },
 ]
 
